@@ -1,14 +1,18 @@
 <template>
-  <router-view />
+  <router-view/>
 </template>
 
 <script>
-import Login from "./views/Login.vue";
+import Login from "@/views/Login.vue";
+import GarbageMan from "@/views/GarbageMan";
+
 export default {
+  name: 'App',
   components: {
     Login,
-  },
-};
+    GarbageMan,
+  }
+}
 </script>
 
 <style>

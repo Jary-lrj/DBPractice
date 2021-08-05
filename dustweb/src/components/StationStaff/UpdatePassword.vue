@@ -92,7 +92,7 @@ export default {
           "plantname":"",
           "phonenumber": "",
         }
-        fetch(this.$URL + "/User/Update/StationStaff", {
+        fetch(this.$store.state.URL + "/User/Update/StationStaff", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
